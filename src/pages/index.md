@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: "CalledUp Coaching: Build Your Life Beyond the Game"
-image: /img/home-jumbotron.jpg
+image: https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/saSAu5UkXFGQzoR9RhJz/media/650d4619088ee71fe0748c22.png
 heading: "  "
 subheading: Discover A Future Full Of Purpose And Passion With Our Development
   Program For Graduating Athletes Geared Towards Enhancing On Field Performance
