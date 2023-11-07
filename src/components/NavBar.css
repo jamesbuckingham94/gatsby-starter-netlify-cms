@@ -1,0 +1,84 @@
+/* NavBar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    max-width: 1200px; /* Set the maximum width */
+    margin: 0 auto; /* Center align the navbar */
+  }
+  
+  .logo img {
+    width: 100px; /* Adjust the width of your logo */
+    height: auto;
+  }
+  
+  .links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+  }
+  
+  .login {
+    max-width: 200px; /* Adjust the maximum width of the login section */
+  }
+  
+  .login button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #FF5733; /* Customize the button background color */
+    color: white;
+    cursor: pointer;
+    max-width: 120px; /* Set the maximum width for the button */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .login button:hover {
+    background-color: #FF874D; /* Change button color on hover */
+  }
+
+.login {
+    max-width: 200px; /* Adjust the maximum width of the login section */
+    position: relative; /* Position the dropdown relative to the login button */
+  }
+  
+  .login .dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .login .dropdown input {
+    margin: 5px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .login .dropdown button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #FF5733; /* Customize the button background color */
+    color: white;
+    cursor: pointer;
+  }
+  
+  .login .dropdown button:hover {
+    background-color: #FF874D; /* Change button color on hover */
+  }
