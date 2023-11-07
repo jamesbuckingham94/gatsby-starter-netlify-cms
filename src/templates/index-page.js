@@ -39,10 +39,12 @@ export const IndexPageTemplate = ({
                   </div>
                   <div className="columns">
                     <div className="column is-12">
-                      <h3 className="has-text-weight-semibold is-size-2">
+                      <h3 style={{maxWidth: '800px' }}>
                         {heading}
                       </h3>
-                      <p>{description}</p>
+                      <p style={{maxWidth: '800px'}}
+                
+                      >{description}</p>
                     </div>
                   </div>
                   <Features gridItems={intro.blurbs} />
